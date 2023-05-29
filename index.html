@@ -55,11 +55,13 @@
           <li class="dropdown"><a href="#program" style="text-decoration: none;"><span>Program</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#informasi" style="text-decoration: none;">Informasi SDGs</a></li>
-              <li><a href="#jalan" style="text-decoration: none;">Infrastruktur Jalan</a></li>
+              <li><a href="#jalan" style="text-decoration: none;">Infrastruktur Jalan Nasional</a></li>
+              <li><a href="#penanda1" style="text-decoration: none;">Laporan Kerusakan</a></li>
               <li><a href="#faq" style="text-decoration: none;">FAQ</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto active" href="#kontak">Kontak</a></li>
+          <li><a href="/login.html" style="text-decoration: none;">Login</a></li>
         </ul>
       </nav>
     </div>
@@ -410,9 +412,9 @@
 
         <div id="rusak" class="section-title">
           <h2>Infrastruktur Jalan</h2>
-          <h4>Data Kerusakan Jalan di Indonesia</h4><br>
+          <h4>Data Kerusakan Jalan Nasional</h4><br>
 
-          <table cellspacing='0'>
+          <table id="tabel1" cellspacing='0'>
             <thead>
               <tr>
                 <th>No.</th>
@@ -467,7 +469,7 @@
                 <td>Kondisi Permukaan Jalan Nasional</td>
                 <td>2016</td>
                 <td>
-                  <a target="_blank" href="https://data.pu.go.id/dataset/kondisi-permukaan-jalan-nasional/resource/bed95f0a-7666-43e1-970b-98618dd94ee3">Data 2016</a> 
+                  <a id="penanda1" target="_blank" href="https://data.pu.go.id/dataset/kondisi-permukaan-jalan-nasional/resource/bed95f0a-7666-43e1-970b-98618dd94ee3">Data 2016</a> 
                 </td>
               </tr>
               <tr>
@@ -481,11 +483,123 @@
             </tbody>
           </table>        
           </div>
+
+          <div id="rusak" class="section-title">
+            <h4>Laporan Jalan Rusak</h4><br>
+            
+            <div>
+              <table id="tabel2" cellspacing='0'>
+                <thead>
+                  <tr></tr>
+                    <th><span>Latidude</span></th>
+                    <th><span>Longitude</span></th>
+                    <th><span>Provinsi</span></th>
+                    <th><span>Jalan</span></th>
+                    <th><span>Panjang(km)</span></th>
+                    <th><span>Kondisi</span></th>
+                    <th><span>Peta</span></th>
+                    <th><span>Foto</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>-7.775033</td>
+                    <td>110.389347</td>
+                    <td class="lalign">Yogyakarta</td>
+                    <td>Jl. Affandi</td>
+                    <td>3,1</td>
+                    <td>Sedang</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/keNiRB9LR8QmX9iq5">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://media.suara.com/suara-partners/joglo/thumbs/653x367/2023/01/25/1-jalan-gejayan.png">Foto</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>-8.684481</td>
+                    <td>115.215781</td>
+                    <td class="lalign">Bali</td>
+                    <td>Jl. Raya Sesetan</td>
+                    <td>5,31</td>
+                    <td>Sedang</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/rY1H9YJbYvReKN9V7">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://www.balipost.com/wp-content/uploads/2022/07/balipostcom_jalan-di-nusa-penida-cepat-rusak-pengerjaan-proyek-jangan-asal-asalan_01.jpg">Foto</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>-8.608765</td>
+                    <td>116.100314</td>
+                    <td class="lalign">NTB</td>
+                    <td>Jl. Gajah Mada</td>
+                    <td>3,27</td>
+                    <td>Sedang</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/Xun8jkPJb9FPrVS18">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://lombokpost.jawapos.com/wp-content/uploads/2022/01/F-JALAN-RUSAK.jpg">Foto</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5.554282</td>
+                    <td>95.320714</td>
+                    <td class="lalign">Aceh</td>
+                    <td>Jl. Pante Pirak</td>
+                    <td>1,8</td>
+                    <td>Sedang</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/4qiX48XV5W8kxVFp7">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://awsimages.detik.net.id/community/media/visual/2023/01/24/lubang-di-jalan-banda-aceh-agus-setyadidetiksumut_169.jpeg?w=1200">Foto</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>-2.580539</td>
+                    <td>140.633953</td>
+                    <td class="lalign">Papua</td>
+                    <td>Jl. Buper Wamena</td>
+                    <td>6,7</td>
+                    <td>Buruk</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/mXvZ3pSAvxp3kh4t5">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://akcdn.detik.net.id/community/media/visual/2019/01/13/4f78f21f-cfd4-494b-a4f8-f8de93758488_43.jpeg?w=250&q=">Foto</a> 
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>-5.427908</td>
+                    <td>105.277683</td>
+                    <td class="lalign">Lampung</td>
+                    <td>Jl. Benda</td>
+                    <td>1,4</td>
+                    <td>Buruk</td>
+                    <td>
+                      <a target="_blank" href="https://goo.gl/maps/xnWbuEAevjEQRAsT6">Maps</a> 
+                    </td>
+                    <td>
+                      <a target="_blank" href="https://geotimes.id/wp-content/uploads/2017/08/jalan-rusak-1.jpeg">Foto</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div>
+                <br>
+                <a href=#kontak class="button">Pelaporan</a>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
     <!-- END OF JALAN SECTION -->
 
-    <!--JALAN SECTION -->
+    <!--FAQ SECTION -->
     <section id="faq" class="faq section-bg">
       <div class="container">
         <div class="section-title">
@@ -585,28 +699,28 @@
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required placeholder="Enter Your Name">
+                  <label for="name">Nama Lengkap</label>
+                  <input type="text" name="name" class="form-control" id="name" required placeholder="Masukkan Nama Anda">
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required placeholder="Enter Your Email Address">
+                  <label for="name">Alamat Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required placeholder="Masukkan Alamat Email Anda">
                 </div>
               </div>
               <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required placeholder="Enter Your Form Subject ">
+                <label for="name">Subjek</label>
+                <input type="text" class="form-control" name="subject" id="subject" required placeholder="Masukkan Subjek">
               </div>
               <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required placeholder="Enter Your Message"></textarea>
+                <label for="name">Pesan</label>
+                <textarea class="form-control" name="message" rows="10" required placeholder="Masukkan Pesan"></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Mohon Tunggu</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Pesan Anda telah dikirim dan kami akan segera menghubungi Anda!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Kirim Pesan</button></div>
             </form>
           </div>
 
